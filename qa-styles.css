@@ -111,7 +111,7 @@ p {
 }
 
 .qa-body-wrapper {
-    background: #eeeeec;
+    background: #fff;
     border-radius: 5px;
     border: 1px solid #d3d7cf;
     width: 980px;
@@ -205,7 +205,7 @@ blockquote p {
 }
 
 .qa-error a:hover {
-    color: red;
+    color: #a40000;
 }
 
 /* Page sections */
@@ -481,9 +481,9 @@ blockquote p {
 
 .qa-nav-main-hot:hover .qa-nav-main-link {
     color: #eeeeec !important;
-    background: #cc0000;
-    border-left: 1px solid #cc0000;
-    border-right: 1px solid #cc0000;
+    background: #a40000;
+    border-left: 1px solid #a40000;
+    border-right: 1px solid #a40000;
 }
 
 .qa-nav-main-custom-2 .qa-nav-main-link {
@@ -495,9 +495,9 @@ blockquote p {
 
 .qa-nav-main-custom-2:hover .qa-nav-main-link {
     color: #eeeeec !important;
-    background: #cc0000;
-    border-left: 1px solid #cc0000;
-    border-right: 1px solid #cc0000;
+    background: #a40000;
+    border-left: 1px solid #a40000;
+    border-right: 1px solid #a40000;
 }
 
 .qa-nav-sub {
@@ -1467,7 +1467,7 @@ blockquote p {
 
 .qa-a-count-zero {
     background: #F9A9A9;
-    border: 1px solid #cc0000;
+    border: 1px solid #a40000;
 }
 
 .qa-a-count-zero .qa-a-count-data {
@@ -1709,7 +1709,7 @@ blockquote p {
 }
 
 .qa-q-view-flags {
-    color: red;
+    color: #a40000;
     font-weight: 700;
     padding-left: 4px;
 }
@@ -1848,7 +1848,7 @@ blockquote p {
 }
 
 .qa-a-item-flags {
-    color: red;
+    color: #a40000;
     font-weight: 700;
     padding-left: 4px;
 }
@@ -1994,7 +1994,7 @@ blockquote p {
 }
 
 .qa-c-item-flags {
-    color: red;
+    color: #a40000;
     font-weight: 700;
     padding-left: 3px;
 }
@@ -2109,7 +2109,7 @@ blockquote p {
     display: inline-block;
 }
 
-.footer-credit {
+.footer-c#a40000it {
     float: right;
     display: inline-block;
     margin-right: 12px;
