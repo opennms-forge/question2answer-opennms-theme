@@ -50,11 +50,11 @@ body, td, input, textarea {
 
 a:link, a:active, a:visited {
     text-decoration: none;
-    color: #4e9a06;
+    color: #145800;
 }
 
 a:hover {
-    color: #73d216;
+    color: #4e9a06;
     text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ p {
 
 /* Headings */
 h1 {
-    color: #4e9a06;
+    color: #145800;
     font-size: 22px;
     font-weight: 700;
     margin: 1em 0 0.5em;
@@ -140,7 +140,7 @@ h2 {
     padding: 6px;
     margin-left: 10px;
     clear: both;
-    background: #4e9a06;
+    background: #145800;
 }
 
 blockquote {
@@ -159,7 +159,7 @@ blockquote p {
 }
 
 .entry-title {
-    color: #4e9a06;
+    color: #145800;
     background: url(images/question.png) no-repeat left;
     padding-left: 30px;
 }
@@ -268,7 +268,7 @@ blockquote p {
 
 .qa-footer {
     clear: both;
-    background: #4e9a06;
+    background: #145800;
     color: #eeeeec;
     font-size: 10px;
     padding: 10px;
@@ -335,7 +335,7 @@ blockquote p {
 
 .qa-logo-link, .qa-logo-link:hover {
     text-decoration: none;
-    color: #73d216;
+    color: #4e9a06;
 }
 
 .qa-search {
@@ -413,11 +413,11 @@ blockquote p {
 }
 
 .qa-nav-user-link {
-    color: #4e9a06 !important;
+    color: #145800 !important;
 }
 
 .qa-nav-user-link:hover {
-    color: #73d216 !important;
+    color: #4e9a06 !important;
 }
 
 .qa-logged-in {
@@ -427,7 +427,7 @@ blockquote p {
 /* Main, sub and category navigation */
 .qa-nav-main {
     clear: both;
-    background: #4e9a06;
+    background: #145800;
 
     border-top: 1px solid #f4f4f4;
     border-bottom: 1px solid #eeeeec;
@@ -455,51 +455,51 @@ blockquote p {
 }
 
 .qa-nav-main-link {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec !important;
     display: block;
+    padding: 7px 9px;
+    border-left: 1px solid #145800;
+    border-right: 1px solid #145800;
+}
+
+.qa-nav-main-link:hover, .qa-nav-main-selected {
+    background: #4e9a06;
+
+    color: #eeeeec !important;
+    text-decoration: none;
     padding: 7px 9px;
     border-left: 1px solid #4e9a06;
     border-right: 1px solid #4e9a06;
 }
 
-.qa-nav-main-link:hover, .qa-nav-main-selected {
-    background: #73d216;
-
-    color: #eeeeec !important;
-    text-decoration: none;
-    padding: 7px 9px;
-    border-left: 1px solid #73d216;
-    border-right: 1px solid #73d216;
-}
-
 .qa-nav-main-hot .qa-nav-main-link {
     color: #eeeeec !important;
-    background: #a40000;
-    border-left: 1px solid #a40000;
-    border-right: 1px solid #a40000;
+    background: #ce5c00;
+    border-left: 1px solid #ce5c00;
+    border-right: 1px solid #ce5c00;
 }
 
 .qa-nav-main-hot:hover .qa-nav-main-link {
-    color: #eeeeec !important;
-    background: #cc0000;
-    border-left: 1px solid #cc0000;
-    border-right: 1px solid #cc0000;
+    color: #fff !important;
+    background: #f57900;
+    border-left: 1px solid #f57900;
+    border-right: 1px solid #f57900;
 }
 
 .qa-nav-main-custom-2 .qa-nav-main-link {
     color: #eeeeec !important;
-    background: #a40000;
-    border-left: 1px solid #a40000;
-    border-right: 1px solid #a40000;
+    background: #ce5c00;
+    border-left: 1px solid #ce5c00;
+    border-right: 1px solid #ce5c00;
 }
 
 .qa-nav-main-custom-2:hover .qa-nav-main-link {
-    color: #eeeeec !important;
-    background: #cc0000;
-    border-left: 1px solid #cc0000;
-    border-right: 1px solid #cc0000;
+    color: #fff !important;
+    background: #f57900;
+    border-left: 1px solid #f57900;
+    border-right: 1px solid #f57900;
 }
 
 .qa-nav-sub {
@@ -640,7 +640,7 @@ blockquote p {
 
 .qa-page-selected {
     color: #eeeeec !important;
-    background-color: #4e9a06;
+    background-color: #145800;
 
 }
 
@@ -661,7 +661,7 @@ blockquote p {
 
 .qa-page-link:hover, .qa-page-prev:hover, .qa-page-next:hover {
     text-decoration: none;
-    background-color: #4e9a06;
+    background-color: #145800;
     color: #eeeeec !important;
 
     -moz-transition: background-color ease-in-out 0.15s;
@@ -750,12 +750,12 @@ blockquote p {
 }
 
 .qa-form-tall-note a {
-    color: #4e9a06;
+    color: #145800;
     text-decoration: none;
 }
 
 .qa-form-tall-note a:hover {
-    color: #73d216;
+    color: #4e9a06;
 }
 
 .qa-form-tall-buttons {
@@ -764,6 +764,16 @@ blockquote p {
 }
 
 .qa-form-tall-button, .qa-search-button, .qa-form-tall-table input[type="button"] {
+    background: #145800;
+
+    color: #eeeeec;
+    font-size: 14px;
+    border: 1px solid #145800;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.qa-form-tall-hover, .qa-search-button:hover, .qa-form-tall-table input[type="button"]:hover {
     background: #4e9a06;
 
     color: #eeeeec;
@@ -774,146 +784,126 @@ blockquote p {
 }
 
 .qa-form-tall-hover, .qa-search-button:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.qa-form-tall-hover, .qa-search-button:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
-
-    color: #eeeeec;
-    font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-cancel, .qa-form-tall-table input[type="button"] {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-cancel:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-comment, .qa-form-tall-table input[type="button"] {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-comment:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-reset, .qa-form-tall-table input[type="button"] {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-reset:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-save, .qa-form-tall-table input[type="button"] {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-save:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-answer, .qa-form-tall-table input[type="button"] {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-answer:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-ask, .qa-form-tall-table input[type="button"] {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-tall-hover, .qa-form-tall-button-ask:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
-
-    color: #eeeeec;
-    font-size: 14px;
-    border: 1px solid #73d216;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.qa-form-tall-hover, .qa-form-tall-button-add, .qa-form-tall-table input[type="button"] {
     background: #4e9a06;
 
     color: #eeeeec;
@@ -923,12 +913,22 @@ blockquote p {
     cursor: pointer;
 }
 
-.qa-form-tall-hover, .qa-form-tall-button-add:hover, .qa-form-tall-table input[type="button"]:hover {
-    background: #73d216;
+.qa-form-tall-hover, .qa-form-tall-button-add, .qa-form-tall-table input[type="button"] {
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #73d216;
+    border: 1px solid #145800;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.qa-form-tall-hover, .qa-form-tall-button-add:hover, .qa-form-tall-table input[type="button"]:hover {
+    background: #4e9a06;
+
+    color: #eeeeec;
+    font-size: 14px;
+    border: 1px solid #4e9a06;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -1011,7 +1011,7 @@ blockquote p {
 }
 
 .qa-form-wide-button {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
@@ -1021,11 +1021,11 @@ blockquote p {
 }
 
 .qa-form-wide-hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -1045,11 +1045,11 @@ blockquote p {
 
 /* overflow:visible for IE */
 .qa-form-light-button {
-    color: #4e9a06;
+    color: #145800;
 }
 
 .qa-form-light-hover, .qa-form-light-button:hover {
-    color: #73d216;
+    color: #4e9a06;
 }
 
 .qa-form-light-button-edit, .qa-form-light-hover-edit, .qa-form-light-button-retagcat, .qa-form-light-hover-retagcat {
@@ -1129,21 +1129,21 @@ blockquote p {
 }
 
 .qa-form-basic-button {
-    background: #4e9a06;
+    background: #145800;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
 
 .qa-form-basic-hover, .qa-form-basic-button:hover {
-    background: #73d216;
+    background: #4e9a06;
 
     color: #eeeeec;
     font-size: 14px;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -1179,12 +1179,12 @@ blockquote p {
 }
 
 .qa-q-item-title a {
-    color: #4e9a06;
+    color: #145800;
     text-decoration: none;
 }
 
 .qa-q-item-title a:hover {
-    color: #73d216;
+    color: #4e9a06;
     text-decoration: none;
 }
 
@@ -1478,11 +1478,11 @@ blockquote p {
 
 .qa-a-count-selected {
     background: #c4f09a;
-    border: 1px solid #4e9a06;
+    border: 1px solid #145800;
 }
 
 .qa-a-count-selected .qa-a-count-data {
-    color: #4e9a06;
+    color: #145800;
 }
 
 .qa-view-count {
@@ -1504,12 +1504,12 @@ blockquote p {
 }
 
 .qa-top-tags-count {
-    border: 1px solid #4e9a06;
-    border-right: 1px dashed #4e9a06;
+    border: 1px solid #145800;
+    border-right: 1px dashed #145800;
     color: #eeeeec;
     text-align: right;
     padding: 6px 8px 6px 12px;
-    background: #4e9a06;
+    background: #145800;
 }
 
 .qa-top-tags-label {
@@ -1535,17 +1535,17 @@ blockquote p {
 
 .qa-top-users-label {
     border: 1px solid #d3d7cf;
-    border-right: 1px dashed #4e9a06;
+    border-right: 1px dashed #145800;
     text-align: left;
     padding: 6px 16px 6px 12px;
     background: #f4f4f4;
 }
 
 .qa-top-users-score {
-    background: #4e9a06;
+    background: #145800;
     color: #eeeeec;
     text-align: right;
-    border-color: #4e9a06;
+    border-color: #145800;
     border-style: solid solid solid none;
     border-width: 1px;
     padding: 6px 12px;
@@ -1588,7 +1588,7 @@ blockquote p {
 
 .qa-browse-cat-item {
     font-weight: 700;
-    color: #4e9a06;
+    color: #145800;
     margin: 10px 2px;
     padding: 5px 10px;
     background: #eeeeec;
@@ -2145,12 +2145,12 @@ blockquote p {
 
 /* Classes passed to theme */
 .qa-user-link {
-    color: #4e9a06 !important;
+    color: #145800 !important;
     font-weight: 700;
 }
 
 .qa-user-link:hover {
-    color: #73d216 !important;
+    color: #4e9a06 !important;
     font-weight: 700;
 }
 
@@ -2336,6 +2336,6 @@ blockquote p {
 .qa-template-user .qa-part-form-activity td .qa-uf-user-upvoteds,
 .qa-template-user .qa-part-form-activity td .qa-uf-user-downvoteds {
     font-size: 18px;
-    color: #4e9a06;
+    color: #145800;
     font-weight: 700;
 }
