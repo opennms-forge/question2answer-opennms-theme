@@ -933,6 +933,26 @@ blockquote p {
     cursor: pointer;
 }
 
+.qa-form-tall-hover, .qa-form-tall-button-login, .qa-form-tall-table input[type="button"] {
+    background: #145800;
+
+    color: #eeeeec;
+    font-size: 14px;
+    border: 1px solid #145800;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.qa-form-tall-hover, .qa-form-tall-button-login:hover, .qa-form-tall-table input[type="button"]:hover {
+    background: #4e9a06;
+
+    color: #eeeeec;
+    font-size: 14px;
+    border: 1px solid #4e9a06;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
 /* Standard form (wide version) */
 .qa-form-wide-table {
     border-collapse: collapse;
