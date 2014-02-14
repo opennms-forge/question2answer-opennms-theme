@@ -112,11 +112,12 @@ p {
 
 .qa-body-wrapper {
     background: #fff;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid #d3d7cf;
     width: 980px;
     text-align: left;
     margin: 30px auto;
+    padding-top: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -360,7 +361,7 @@ blockquote p {
 .qa-search-field {
     width: 12.6em;
     background: #eeeeec;
-    border: 1px solid #eeeeec;
+    border: 1px solid #babdb6;
     color: #2e3436;
     height: 22px;
     font-size: 14px;
@@ -482,9 +483,9 @@ blockquote p {
 
 .qa-nav-main-hot:hover .qa-nav-main-link {
     color: #eeeeec !important;
-    background: #a40000;
-    border-left: 1px solid #a40000;
-    border-right: 1px solid #a40000;
+    background: #cc0000;
+    border-left: 1px solid #cc0000;
+    border-right: 1px solid #cc0000;
 }
 
 .qa-nav-main-custom-2 .qa-nav-main-link {
@@ -496,9 +497,9 @@ blockquote p {
 
 .qa-nav-main-custom-2:hover .qa-nav-main-link {
     color: #eeeeec !important;
-    background: #a40000;
-    border-left: 1px solid #a40000;
-    border-right: 1px solid #a40000;
+    background: #cc0000;
+    border-left: 1px solid #cc0000;
+    border-right: 1px solid #cc0000;
 }
 
 .qa-nav-sub {
@@ -705,10 +706,10 @@ blockquote p {
 }
 
 .qa-form-tall-text {
-    background: #fff;
+    background: #eeeeec;
     color: #2e3436;
     width: 525px;
-    border: 1px solid #eeeeec;
+    border: 1px solid #babdb6;
     font-size: 16px;
 }
 
