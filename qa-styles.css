@@ -137,6 +137,7 @@ h2 {
     font-size: 16px;
     color: #eeeeec;
     padding: 6px;
+    margin-left: 10px;
     clear: both;
     background: #4e9a06;
 }
@@ -704,7 +705,7 @@ blockquote p {
 }
 
 .qa-form-tall-text {
-    background: #eeeeec;
+    background: #fff;
     color: #2e3436;
     width: 525px;
     border: 1px solid #eeeeec;
@@ -921,7 +922,7 @@ blockquote p {
     cursor: pointer;
 }
 
-.qa-form-tall-hover, .qa-form-tall-button-ask:hover, .qa-form-tall-table input[type="button"]:hover {
+.qa-form-tall-hover, .qa-form-tall-button-add:hover, .qa-form-tall-table input[type="button"]:hover {
     background: #73d216;
 
     color: #eeeeec;
