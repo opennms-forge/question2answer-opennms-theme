@@ -1172,6 +1172,15 @@ blockquote p {
     font-size: 11px;
 }
 
+.qa-a-form a {
+    color: #4e9a06;
+}
+
+.qa-a-form a:hover {
+    color: #73d216;
+}
+
+
 /* Question list */
 .qa-q-list {
 }
